@@ -103,24 +103,25 @@ Micromodal follows the [standardjs](https://standardjs.com/) coding standard and
 
 &nbsp;
 
+## Want to be a core maintainer?
+
+We are looking for more maintainers for Micromodal. If you are interested, and you have at least some free time to spend on this, reach out to @dkniffin.
+
+&nbsp;
+
 ## Licensing
 This project is licensed under [MIT license](https://opensource.org/licenses/MIT).
 
 &nbsp;
+
 ## Related
 - [Microtip](https://github.com/ghosh/microtip) - Modern, lightweight, accessible css tooltip library. Just 1kb.
 
 &nbsp;
 
-## Contact
-You can mention us on Twitter for any questions, suggestions or just send us funny GIF. We ♥️ GIFs.
-
-#### Tweet some love
-[Tweet](https://twitter.com/intent/tweet?url=https%3A%2F%2Fgoo.gl%2FsEgnBZ&text=Make%20your%20modal%20dialogs%20accessible%20to%20all%20using%20Micromodal.js%2C%20a%20tiny%20library%20for%20big%20change.&hashtags=a11y "Tweet about Micromodal") about Micromodal and help us to spread the message about the importance of Web accessibility and Inclusive design.
-
-&nbsp;
-
 ## Created and maintained by
+
+Derek Kniffin – [@dkniffin](https://github.com/dkniffin) 🇺🇸
 
 Indrashish Ghosh – [@_ighosh](https://twitter.com/_ighosh) 🇮🇳
 
@@ -129,3 +130,5 @@ Kalpesh Singh - [@knowkalpesh](https://twitter.com/knowkalpesh) 🇮🇳
 Darpan Kakadia - [@kakadiadarpan](https://twitter.com/kakadiadarpan) 🇩🇪
 
 Contributors - [list](https://github.com/ghosh/micromodal/graphs/contributors) 🌐
+
+You? - Open a PR to get started!
