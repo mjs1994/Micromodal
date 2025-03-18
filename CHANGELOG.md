@@ -1,4 +1,6 @@
 ## Release History
+* **0.5.2**
+    * 🐞 `BUGFIX` Updated dependencies
 * **0.4.10**
     * 🐞 `BUGFIX` Reverted passive listener to enable event methods
 * **0.4.9**

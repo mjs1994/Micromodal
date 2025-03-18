@@ -101,6 +101,25 @@ Micromodal follows the [standardjs](https://standardjs.com/) coding standard and
 5. [Optional] Run `yarn build` to build the files for distribution. This is run automatically as a pre-commit hook as well.
 6. Send us pull request and chill
 
+#### Pushing a new version
+
+First, you must be authorized on npmjs.com. Then:
+
+1. Update the npm package:
+  - Update the version in `lib/package.json`
+  - `yarn deploy:npm`
+
+2. Update the changelog.
+
+3. Commit and push changes
+
+4. Tag the version in git:
+  - `git tag -a X.Y.Z`
+  - Add the same text as the changelog to the tag description
+  - `git push origin X.Y.Z`
+
+5. Create a new release in Github: https://github.com/dkniffin/activeadmin_reorderable/releases
+
 &nbsp;
 
 ## Want to be a core maintainer?
