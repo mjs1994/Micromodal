@@ -118,7 +118,7 @@ First, you must be authorized on npmjs.com. Then:
   - Add the same text as the changelog to the tag description
   - `git push origin X.Y.Z`
 
-5. Create a new release in Github: https://github.com/dkniffin/activeadmin_reorderable/releases
+5. Create a new release in Github: https://github.com/micromodal/micromodal/releases
 
 &nbsp;
 
