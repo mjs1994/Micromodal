@@ -15,9 +15,6 @@
   <a href="https://www.npmjs.com/package/micromodal" target="_blank" rel="noopener">
     <img src="https://img.shields.io/npm/v/micromodal.svg" alt="Package version">
   </a>
-  <a href="https://travis-ci.org/ghosh/micromodal" target="_blank" rel="noopener">
-    <img src="https://api.travis-ci.org/ghosh/micromodal.svg" alt="Build Status">
-  </a>
 </p>
 
 <p align="center">
@@ -31,6 +28,8 @@
 The aim of this library is to make modal dialogs accessible and easy to include in your project with minimum configuration. It's only ~1.8kb minified and gzipped - A tiny library for big change.
 
 **[Demo and documentation](https://micromodal.now.sh/)**
+
+**[Codepen example](https://codepen.io/dkniffin/pen/LEYmYWy)**
 
 &nbsp;
 
