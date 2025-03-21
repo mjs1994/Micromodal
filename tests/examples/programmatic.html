@@ -21,6 +21,12 @@
       </button>
     </div>
 
+    <div class="wrapper">
+      <button class="button" id="open-trigger-2">
+        Show modal via element reference
+      </button>
+    </div>
+
 
     <!-- Modal -->
 
@@ -65,6 +71,16 @@
     }), false);
 
     close.addEventListener('click', () => MicroModal.close('modal-1'), false);
+
+    const open2 = document.getElementById("open-trigger-2");
+    const modal = document.getElementById("modal-1");
+
+    open2.addEventListener('click', () => MicroModal.show(modal, {
+      onShow: () => document.body.classList.add('howdy'),
+      onClose: () => document.body.classList.remove('howdy'),
+      awaitCloseAnimation: true,
+      openClass: 'open'
+    }), false);
   </script>
 
 </body>
