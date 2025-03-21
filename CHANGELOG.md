@@ -1,4 +1,6 @@
 ## Release History
+* **0.6.0**
+    * 💡 `FEATURE` Added ability to pass an element to Micromodal
 * **0.5.2**
     * 🐞 `BUGFIX` Updated dependencies
 * **0.4.10**
