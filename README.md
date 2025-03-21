@@ -29,7 +29,7 @@ The aim of this library is to make modal dialogs accessible and easy to include 
 
 **[Demo and documentation](https://micromodal.now.sh/)**
 
-**[Codepen example](https://codepen.io/dkniffin/pen/LEYmYWy)**
+**[Codepen example](https://codepen.io/pen?template=LEYmYWy)**
 
 &nbsp;
 
