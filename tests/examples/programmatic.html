@@ -52,6 +52,9 @@
             <button class="button" id="close-trigger">
               Close modal
             </button>
+            <button class="button" id="close-trigger-2">
+              Close modal via element reference
+            </button>
           </footer>
         </div>
       </div>
@@ -74,6 +77,7 @@
 
     const open2 = document.getElementById("open-trigger-2");
     const modal = document.getElementById("modal-1");
+    const close2 = document.getElementById("close-trigger-2");
 
     open2.addEventListener('click', () => MicroModal.show(modal, {
       onShow: () => document.body.classList.add('howdy'),
@@ -81,6 +85,8 @@
       awaitCloseAnimation: true,
       openClass: 'open'
     }), false);
+
+    close2.addEventListener('click', () => MicroModal.close(modal), false);
   </script>
 
 </body>

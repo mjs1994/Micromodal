@@ -14,6 +14,10 @@ describe('Programmatic toggling of Modal', function () {
     cy.get('#close-trigger').click()
   }
 
+  const closeModalViaElementReference = () => {
+    cy.get('#close-trigger-2').click()
+  }
+
   it('should sucessfully load', () => {
     cy.visit('/programmatic.html')
   })
@@ -99,6 +103,13 @@ describe('Programmatic toggling of Modal', function () {
     openModalViaElementReference()
     cy.get('#modal-1 .modal__overlay').and('be.visible')
     closeModal()
+  })
+
+  it('should close modal via element reference', () => {
+    openModalViaElementReference()
+    cy.get('#modal-1 .modal__overlay').and('be.visible')
+    closeModalViaElementReference()
+    cy.get('#modal-1 .modal__overlay').and('not.be.visible')
   })
 
 })
