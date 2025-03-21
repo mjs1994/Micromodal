@@ -1,4 +1,7 @@
 ## Release History
+* **0.6.1**
+    * 🐞 `BUGFIX` Add ability to pass an element to Micromodal.close()
+    * 🌀 `ENHANCEMENT` Updated documentation for show and close methods
 * **0.6.0**
     * 💡 `FEATURE` Added ability to pass an element to Micromodal
 * **0.5.2**
