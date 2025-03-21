@@ -330,23 +330,41 @@ MicroModal.init();
 
         <p class="lh-copy mv4 black-80">
           You can also trigger and close modals programmatically using the <code>show</code> and <code>close</code>
-          methods on the <code>MicroModal</code> object. Example:-
+          methods on the <code>MicroModal</code> object. Example:
         </p>
 
-        <pre><code class="language-js">
+        <pre>
+          <code class="language-js">
 MicroModal.show('modal-id'); // [1]
 MicroModal.close('modal-id'); // [2]
-        </code></pre>
+
+MicroModal.show(modalElement); // [3]
+MicroModal.close(modalElement); // [4]
+
+// [5]
+MicroModal.show(modalElement, {
+  onShow: modal => console.info(`${modal.id} is shown`),
+  onClose: modal => console.info(`${modal.id} is hidden`),
+});
+          </code>
+        </pre>
 
         <ul class="ordered lh-copy pl0 mv4">
           <li class="pl4 pv3">
-            The string passed to the <code>show</code> method must correspond to the <code>id</code> of the modal to be
-            open. You can also pass in a config object in the <code>show</code> method and it will apply only to this
-            modal.
+            If the argument passed to the <code>show</code> method is a string, it corresponds to the <code>id</code> of the modal to be open.
           </li>
           <li class="pl4 pv3">
-            The string passed to the <code>close</code> method must correspond to the <code>id</code> of the modal to be
-            closed
+            If the argument passed to the <code>close</code> method is a string, it corresponds to the <code>id</code> of the modal to be closed.
+          </li>
+          <li class="pl4 pv3">
+            If you pass in an element to the <code>show</code> method, it will be used as the modal to be open.
+          </li>
+          <li class="pl4 pv3">
+            If you pass in an element to the <code>close</code> method, it will be used as the modal to be closed.
+          </li>
+          <li class="pl4 pv3">
+            If you pass in a config object to the <code>show</code> or <code>close</code> methods, it will apply only to this
+              modal.
           </li>
         </ul>
 
